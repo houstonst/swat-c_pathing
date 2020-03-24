@@ -17,4 +17,7 @@ Assume that the robot:
 * Is equipped with LiDAR --> it can detect 3D objects in its path. 
 * Knows its geospatial data (has GPS).
 
+### Google Maps Location:
+https://www.google.com/maps/place/MCB+1,+Virginia/@38.5746155,-77.5453703,831a,35y,180h/data=!3m1!1e3!4m5!3m4!1s0x89b6f0eab69fc225:0x9e184fece89237ec!8m2!3d38.5448781!4d-77.4263075
+
 
