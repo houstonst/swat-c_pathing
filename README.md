@@ -10,6 +10,12 @@ The intent is to apply the Gazebo software to SWAT-C systems so that they are au
 
 <img style="float: center;" src="concept_sketch.PNG">
 
+* Robot traveres yellow "nodes" until it sees a building.
+* Circumnavigates and scans the building until it has a full image.
+* Circumvents the building in on the shortest path.
+* Continues along nodes.
+* If the building covers established nodes, those nodes will be removed, and the robot will circumvent it when detects it in its path again.
+
 ### Problem:
 Robot movement in Gazebo is largely a function of ROS nodes. Currently, no known ROS node exists that is intended for autonomously navigating regions and deliberately circumnavigating structures. If such a ROS does in fact exist, it is unlikely to apply directly to a military context wherein a robot is expected to navigate an outdoor region specified by a commander and provide meaningful situational awareness. The pathing team's experience in Gazebo, though limited, has demonstrated Gazebo's ability to move from point A to point B while avoiding simple obstacles; Gazebo has intelligent capabilities, but the pathing team must expand on them in order to make Gazebo more relevant to SWAT-C's operations.
 
