@@ -8,7 +8,7 @@ Gazebo simulation software is a useful tool for visualizing a robot in a physica
 The intent is to apply the Gazebo software to SWAT-C systems so that they are autonomously driven. Specifically, our goal is to direct a robot to autonomously navigate the entirety of a specified region, circumnavigate obstacles (especially buildings), and concurrently provide situational awareness to the operators by providing a video feed or some similar measure. Approaching this capability in this manner will abstract the problem for commanders who understand the effectiveness of human-robot integration while also relieving them from the burden of directing a robot's every move. Furthermore, the autonomy will free TOC operators from controlling specific robots and therefore allow them to manage other SWAT-C systems while simultaneously benefitting from the autonomous robot's situational awareness.
 
 
-<img style="float: center;" src="concept_sketch.PNG">
+<img style="float: center;" src="concept_sketch2.PNG">
 
 * Robot traveres yellow "nodes" until it sees a building.
 * Circumnavigates and scans the building until it has a full image.
