@@ -7,4 +7,5 @@ In four separate terminals, run:
 4. rosrun area_nav nav.py
 
     a. When prompted, enter 'go' (quotes included) to run the 4-building search
+    
     b. Otherwise, enter a list of coordinates
