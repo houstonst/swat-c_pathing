@@ -1,4 +1,4 @@
-# SWAT-C Pathing Team
+# SWAT-C Autonomous UGV Navigation
 Tasked with introducing a tactically relevant path planning algorithm that will allow a robot to navigate an entire area while circumnavigating obstacles and buildings.
 
 ### Background:
